@@ -6,6 +6,10 @@ const routes = [
     component: lazy(() => import('~/page/index.js')),
   },
   {
+    path: '/webgl',
+    component: lazy(() => import('~/page/webgl/index.js')),
+  },
+  {
     path: '/*all',
     component: lazy(() => import('~/page/[...all].js')),
   },
