@@ -10,6 +10,10 @@ const routes = [
     component: lazy(() => import('~/page/webgl/index.js')),
   },
   {
+    path: '/wasm',
+    component: lazy(() => import('~/page/wasm/index.js')),
+  },
+  {
     path: '/*all',
     component: lazy(() => import('~/page/[...all].js')),
   },
