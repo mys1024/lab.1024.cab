@@ -2,7 +2,6 @@ import path from 'path'
 import { defineConfig } from 'vite'
 import solidPlugin from 'vite-plugin-solid'
 import Unocss from 'unocss/vite'
-import glsl from 'vite-plugin-glsl'
 
 export default defineConfig({
   plugins: [
@@ -10,8 +9,6 @@ export default defineConfig({
     solidPlugin(),
     // https://github.com/unocss/unocss
     Unocss(),
-    // https://github.com/UstymUkhman/vite-plugin-glsl
-    glsl(),
   ],
   // https://github.com/vitest-dev/vitest
   test: {

@@ -1,5 +1,5 @@
-import vert from './main.vert'
-import frag from './main.frag'
+import vert from './main.vert?raw'
+import frag from './main.frag?raw'
 
 function createShader(gl: WebGLRenderingContext, type: number, source: string) {
   const shader = gl.createShader(type)
