@@ -1,7 +1,17 @@
-import type { AttributifyAttributes } from '@unocss/preset-attributify'
+// GLSL
+declare module '*.vert' {
+  const s: string
+  export default s
+}
+declare module '*.frag' {
+  const s: string
+  export default s
+}
 
-declare module 'solid-js' {
-  namespace JSX {
-    interface HTMLAttributes<T> extends AttributifyAttributes {}
-  }
+// wat
+declare module '*.wat?init' {
+  const initWasm: (
+    options: WebAssembly.Imports
+  ) => Promise<WebAssembly.Instance>
+  export default initWasm
 }

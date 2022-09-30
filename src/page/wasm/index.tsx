@@ -1,15 +1,12 @@
 import { createSignal } from 'solid-js'
-import initWasm from './w.wasm?init'
+import initAddModule from './add.wat?init'
 
-interface WasmExports {
+interface AddModuleExports {
   add(a: number, b: number): number
   addAndMul(a: number, b: number, c: number): number
 }
 
-const wasmInstance = await initWasm({})
-const wasmExports = wasmInstance.exports as unknown as WasmExports
-const { add, addAndMul } = wasmExports
-
+const { add, addAndMul } = (await initAddModule({})).exports as unknown as AddModuleExports
 const [num1, setNum1] = createSignal(1)
 const [num2, setNum2] = createSignal(1)
 
