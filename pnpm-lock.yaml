@@ -13,7 +13,7 @@ specifiers:
   unocss: ^0.45.26
   vite: ^3.1.4
   vite-plugin-solid: ^2.3.9
-  vite-plugin-wat: ^0.9.3
+  vite-plugin-wat: ^1.0.1
   vitest: ^0.23.4
 
 dependencies:
@@ -31,7 +31,7 @@ devDependencies:
   unocss: 0.45.26_vite@3.1.4
   vite: 3.1.4
   vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.4
-  vite-plugin-wat: 0.9.3
+  vite-plugin-wat: 1.0.1
   vitest: 0.23.4
 
 packages:
@@ -3356,8 +3356,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-wat/0.9.3:
-    resolution: {integrity: sha512-R8C489ZcGp6tYqK32jrdd+XSVW1GZwidH+qqQXwmJTD4+QeybLZmRCr0VVAuH2+cf6kphz/jylxScBf6z4d9zg==}
+  /vite-plugin-wat/1.0.1:
+    resolution: {integrity: sha512-nF6afpZkEG2QrH9VTzXnygleUfuETbiq6CaekxgwlUVMxPZC5Ia9pXI81twF/lYsTe/aCY5r0GbmPMDjAToLPw==}
     dependencies:
       fs-extra: 10.1.0
       pathe: 0.3.8
