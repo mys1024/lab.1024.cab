@@ -1,14 +1,16 @@
-import path from 'path'
 import { defineConfig } from 'vite'
-import solidPlugin from 'vite-plugin-solid'
+import ResolveAlias from 'vite-plugin-easy-resolve-alias'
+import SolidPlugin from 'vite-plugin-solid'
 import Unocss from 'unocss/vite'
 import Wat from 'vite-plugin-wat'
 import Inspect from 'vite-plugin-inspect'
 
 export default defineConfig({
   plugins: [
+    // https://github.com/mys1024/vite-plugin-easy-resolve-alias
+    ResolveAlias({ '~/': 'src/' }),
     // https://github.com/solidjs/vite-plugin-solid
-    solidPlugin(),
+    SolidPlugin(),
     // https://github.com/unocss/unocss
     Unocss(),
     // https://github.com/mys1024/vite-plugin-wat
@@ -19,11 +21,6 @@ export default defineConfig({
   // https://github.com/vitest-dev/vitest
   test: {
     include: ['test/**/*.test.ts'],
-  },
-  resolve: {
-    alias: {
-      '~/': `${path.resolve(__dirname, 'src')}/`,
-    },
   },
   server: {
     port: 3000,

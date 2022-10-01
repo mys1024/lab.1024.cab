@@ -12,6 +12,7 @@ specifiers:
   typescript: ^4.8.4
   unocss: ^0.45.26
   vite: ^3.1.4
+  vite-plugin-easy-resolve-alias: ^0.9.1
   vite-plugin-inspect: ^0.7.4
   vite-plugin-solid: ^2.3.9
   vite-plugin-wat: ^1.0.1
@@ -31,6 +32,7 @@ devDependencies:
   typescript: 4.8.4
   unocss: 0.45.26_vite@3.1.4
   vite: 3.1.4
+  vite-plugin-easy-resolve-alias: 0.9.1
   vite-plugin-inspect: 0.7.4_vite@3.1.4
   vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.4
   vite-plugin-wat: 1.0.1
@@ -3339,6 +3341,12 @@ packages:
     dependencies:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
+    dev: true
+
+  /vite-plugin-easy-resolve-alias/0.9.1:
+    resolution: {integrity: sha512-9c54l2QF23oZywPmnTnIf5Bs+wAhR+8KY2U0ybdpdeUZlC2K/tq8wPURyGx/4ScE3fE+boRzMN88de4RMWz39g==}
+    dependencies:
+      pathe: 0.3.8
     dev: true
 
   /vite-plugin-inspect/0.7.4_vite@3.1.4:
