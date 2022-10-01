@@ -12,6 +12,7 @@ specifiers:
   typescript: ^4.8.4
   unocss: ^0.45.26
   vite: ^3.1.4
+  vite-plugin-inspect: ^0.7.4
   vite-plugin-solid: ^2.3.9
   vite-plugin-wat: ^1.0.1
   vitest: ^0.23.4
@@ -30,6 +31,7 @@ devDependencies:
   typescript: 4.8.4
   unocss: 0.45.26_vite@3.1.4
   vite: 3.1.4
+  vite-plugin-inspect: 0.7.4_vite@3.1.4
   vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.4
   vite-plugin-wat: 1.0.1
   vitest: 0.23.4
@@ -3337,6 +3339,23 @@ packages:
     dependencies:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
+    dev: true
+
+  /vite-plugin-inspect/0.7.4_vite@3.1.4:
+    resolution: {integrity: sha512-06uSil9CPWsGwICsXixx2O3vsIOLNTkQaiBijmJA84BuxYKIWJ3k0r4I96kX1WgdA3olxJxVBXOjzryzeHOSuQ==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      vite: ^3.1.0
+    dependencies:
+      '@rollup/pluginutils': 4.2.1
+      debug: 4.3.4
+      fs-extra: 10.1.0
+      kolorist: 1.5.1
+      sirv: 2.0.2
+      ufo: 0.8.5
+      vite: 3.1.4
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /vite-plugin-solid/2.3.9_solid-js@1.5.7+vite@3.1.4:
