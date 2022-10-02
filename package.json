@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@7.11.0",
+  "packageManager": "pnpm@7.12.2",
   "description": "A lab website",
   "author": "mys1024",
   "license": "MIT",
@@ -11,8 +11,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "vite build",
-    "preview": "vite preview",
-    "up": "taze -I"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@solidjs/router": "^0.4.3",
@@ -21,7 +20,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.27.0",
-    "@types/node": "^18.7.23",
     "@unocss/preset-attributify": "^0.45.26",
     "eslint": "^8.24.0",
     "eslint-plugin-solid": "^0.7.3",
