@@ -11,10 +11,10 @@ specifiers:
   typescript: ^4.8.4
   unocss: ^0.45.26
   vite: ^3.1.4
-  vite-plugin-easy-resolve-alias: ^0.9.1
+  vite-plugin-easy-resolve-alias: ^2.0.0
   vite-plugin-inspect: ^0.7.4
   vite-plugin-solid: ^2.3.9
-  vite-plugin-wat: ^1.0.1
+  vite-plugin-wat: ^1.0.2
   vitest: ^0.23.4
 
 dependencies:
@@ -30,10 +30,10 @@ devDependencies:
   typescript: 4.8.4
   unocss: 0.45.26_vite@3.1.4
   vite: 3.1.4
-  vite-plugin-easy-resolve-alias: 0.9.1
+  vite-plugin-easy-resolve-alias: 2.0.0
   vite-plugin-inspect: 0.7.4_vite@3.1.4
   vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.4
-  vite-plugin-wat: 1.0.1
+  vite-plugin-wat: 1.0.2
   vitest: 0.23.4
 
 packages:
@@ -3341,8 +3341,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-easy-resolve-alias/0.9.1:
-    resolution: {integrity: sha512-9c54l2QF23oZywPmnTnIf5Bs+wAhR+8KY2U0ybdpdeUZlC2K/tq8wPURyGx/4ScE3fE+boRzMN88de4RMWz39g==}
+  /vite-plugin-easy-resolve-alias/2.0.0:
+    resolution: {integrity: sha512-d+S6gmuYiYsgyNg8/8XehrovYz9Pj0iZP1svw1oP4D7UopIEXr/su8I3Mlgk4kuGTrSzEWFTjzcn2HsaUDhcMg==}
     dependencies:
       pathe: 0.3.8
     dev: true
@@ -3381,8 +3381,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-wat/1.0.1:
-    resolution: {integrity: sha512-nF6afpZkEG2QrH9VTzXnygleUfuETbiq6CaekxgwlUVMxPZC5Ia9pXI81twF/lYsTe/aCY5r0GbmPMDjAToLPw==}
+  /vite-plugin-wat/1.0.2:
+    resolution: {integrity: sha512-/0mSjkZWxJXwIUT5LJTxqcOuQuPqnl05QGoOtwUBtKdh7zbDkMdWtEpE62vWL2exmEwnjJeaM8owKazoiZJzJQ==}
     dependencies:
       fs-extra: 10.1.0
       pathe: 0.3.8
